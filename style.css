@@ -1,0 +1,79 @@
+.text-platzi{
+    color: #97c93e !important;
+}
+
+.btn-platzi{
+    background-color: #97c93e;
+    color: white;
+}
+.btn-platzi:hover{
+    background-color: #678a29;
+    color: white;
+}
+.card{
+    border-color: white;
+}
+.card p{
+    text-align: justify;
+}
+
+#header{
+    color: whitesmoke;
+}
+
+#main .carousel-inner img{
+    height: 90vh;
+    object-fit: cover;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+
+}
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+nav img{
+    width: 100px;
+    margin: 5px 10px;
+}
+
+
+#place-time{
+    background-color: #343a40;
+    color: white;
+}
+
+#place-time img{
+    width: 100%;
+}
+
+#place-time p{
+    text-align: justify;
+}
+
+
+
+
+
+
+footer{
+    background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+    text-align: center;
+}
+footer a{
+    color: gainsboro;
+}
